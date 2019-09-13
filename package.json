@@ -1,0 +1,33 @@
+{
+  "name": "sharperimage",
+  "version": "1.0.0",
+  "description": "Create Images and Convert Images with Sharp",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdowdy/sharp-er-image.git"
+  },
+  "keywords": [
+    "Sharp",
+    "Responsive Images",
+    "Convert Images"
+  ],
+  "author": "Cory Dowdy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdowdy/sharp-er-image/issues"
+  },
+  "homepage": "https://github.com/cdowdy/sharp-er-image#readme",
+  "dependencies": {
+    "make-dir": "^3.0.0",
+    "rename": "^1.0.4",
+    "sharp": "^0.23.0"
+  },
+  "devDependencies": {
+    "ava": "^2.3.0",
+    "del": "^5.1.0"
+  }
+}
