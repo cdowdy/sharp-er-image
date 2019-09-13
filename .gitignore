@@ -65,3 +65,8 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 
 /node_modules/
+.idea/$CACHE_FILE$
+.idea/misc.xml
+.idea/modules.xml
+.idea/sharperimage.iml
+.idea/vcs.xml
