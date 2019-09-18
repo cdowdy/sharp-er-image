@@ -70,3 +70,5 @@ fabric.properties
 .idea/modules.xml
 .idea/sharperimage.iml
 .idea/vcs.xml
+/tests/images/withMetadata.jpeg
+/tests/images/withMetadata.jpg
