@@ -1,0 +1,1 @@
+Library to convert, resize, resize and convert and generate responsive images using [Sharp](https://sharp.pixelplumbing.com/en/stable/)
