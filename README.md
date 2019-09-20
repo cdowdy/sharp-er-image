@@ -8,13 +8,41 @@ Converting Images:
 You can convert any valid Sharp input image - JPEG, PNG, WebP, TIFF, GIF and SVG -  to any web safe Sharp supported image ie. to PNG, JPEG, Webp images
 
 Conversion config:  
-You'll need to supply, at minimum,  a "format" option.  
+You'll need to supply, at minimum,  a "format" option. This determines what image format you'll convert your input image to.  
 
 ```javascript
 const convertConfig = {
     format: 'webp',
 };
 ``` 
+The above configuration will convert any gif, jpeg/jpg, png, TIFF or SVG to a webp image. 
+
+__Example__  
+Example converting a JPEG image to a Webp Image.  
+
+```javascript  
+const SharperImage = require('./index');
+const path = require('path');
+const filePath = path.join(__dirname, '/path/to/example-image.jpeg');
+const config = {
+    format: 'webp',
+    jpg: {
+        quality: 75
+    }
+};
+const image = new SharperImage( filePath, config);
+image.convert().then(r => r );
+```  
+
+You also have the option to pass in a new name to save the image as.   
+```javascript  
+const image = new SharperImage( filePath, config);
+image.convert('my-new-filename').then(r => r );  
+// example-image.jpeg saved as a webp image named my-new-filename.webp
+```
+
+Otherwise it will be saved to the root directory as the same name as the input with the new file format. the above example using an image called ``example-image.jpeg`` using will be saved as ``example-image.webp``
+
 __options:__  
 Here are the defaults used to convert an image to a specific format. 
 
