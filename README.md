@@ -32,6 +32,7 @@ const config = {
 };
 const image = new SharperImage( filePath, config);
 image.convert().then(r => r );
+// example-image.jpeg converted to webp saved as example-image.webp
 ```  
 
 You also have the option to pass in a new name to save the image as.   
@@ -41,7 +42,7 @@ image.convert('my-new-filename').then(r => r );
 // example-image.jpeg saved as a webp image named my-new-filename.webp
 ```
 
-Otherwise it will be saved to the root directory as the same name as the input with the new file format. the above example using an image called ``example-image.jpeg`` using will be saved as ``example-image.webp``
+Otherwise it will be saved to the root directory as the same name as the input with the new file format. the above example using an image called ``example-image.jpeg``  will be saved as ``example-image.webp``
 
 __options:__  
 Here are the defaults used to convert an image to a specific format. 
