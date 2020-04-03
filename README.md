@@ -5,7 +5,7 @@ Library to convert, resize, resize and convert and generate responsive images us
 
 Converting Images:  
 ------------------ 
-You can convert any valid Sharp input image - JPEG, PNG, WebP, TIFF, GIF and SVG -  to any web safe Sharp supported image ie. to PNG, JPEG, Webp images
+You can convert any valid Sharp input image - JPEG, PNG, WebP, TIFF, GIF and SVG -  to any web safe Sharp supported image. Meaning you can convert an input image to PNG, JPEG, or Webp image.
 
 Conversion config:  
 You'll need to supply, at minimum,  a "format" option. This determines what image format you'll convert your input image to.  
@@ -42,7 +42,7 @@ image.convert('my-new-filename').then(r => r );
 // example-image.jpeg saved as a webp image named my-new-filename.webp
 ```
 
-Otherwise it will be saved to the root directory as the same name as the input with the new file format. the above example using an image called ``example-image.jpeg``  will be saved as ``example-image.webp``
+Otherwise it will be saved to the root directory as the same name as the input with the new file format. the above example using an image called ``example-image.jpeg``  will be saved as ``example-image.webp``.
 
 __options:__  
 Here are the defaults used to convert an image to a specific format. 
