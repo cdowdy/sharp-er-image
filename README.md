@@ -4,7 +4,7 @@ Library to convert, resize, resize and convert and generate responsive images us
   
 
 Converting Images:  
------------------- 
+================== 
 You can convert any valid Sharp input image - JPEG, PNG, WebP, TIFF, GIF and SVG -  to any web safe Sharp supported image. Meaning you can convert an input image to PNG, JPEG, or Webp image.
 
 __Conversion config__:  
