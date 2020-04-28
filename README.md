@@ -28,7 +28,8 @@ convert( {
   })
 ```
 
-__Example__  
+Convert a Single Image
+---------------------------------  
 Example **converting a single JPEG image** to a Webp Image, and saving the converted webp image to the root of the project.  
 
 ```javascript  
@@ -69,7 +70,8 @@ image.convert('my-new-filename').then(r => r );
 
 Otherwise it will be saved to the root directory as the same name as the input with the new file format. the above example using an image called ``example-image.jpeg``  will be saved as ``example-image.webp``.  
 
-__Example Converting an Array of Files:__
+Converting an Array of Files:
+-----------------------------
 To convert an array of files, pass the convert function an array. Below we will convert these JPGs/JPEGs to webp images.  
 
 ```javascript
@@ -88,7 +90,7 @@ sharperImage.convert({
   .then(r => r );
 ```
 
-__options:__  
+### Convert Options:  
 Here are the defaults used to convert an image to a specific format. 
 
 ```javascript
